@@ -17,10 +17,8 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
-		/*
-		int a;
-		int b;
 		
+	
 		for(int i=0; i<7;i++)
 		{
 			PORTD=~(1<<i);
@@ -32,12 +30,6 @@ int main(void)
 			_delay_ms(100);
 		}
 
-*/
-		PORTD=0xff;
-		_delay_ms(300);
-			PORTD=0x00;
-			_delay_ms(300);
-			
 
     }
 
